@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: white;
+}
+
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 50px;   /* দুই পাশে gap */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: royalblue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
